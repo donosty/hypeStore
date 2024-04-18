@@ -1,0 +1,476 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+*, *:before, *:after {
+    
+    box-sizing: inherit;
+}
+
+h1, h2, h3{
+
+    font-family: 'Honk', sans-serif;
+}
+
+p, a, li{
+
+    font-family: 'Yrsa', Arial, Helvetica, sans-serif;
+}
+
+/* Navegacion */
+
+.imagen-jordan{
+
+    width: 20%;
+    height: 10%;
+}
+
+.link-nav{
+
+    font-size: 2rem;
+}
+
+/* Header */
+
+header{
+
+    margin-top: 10rem;
+}
+
+h1{
+
+    text-align: center;
+    font-size: 6rem;
+}
+
+.carrusel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 7rem;
+  }
+  
+  .carrusel img {
+    flex: 0 0 auto;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    width: 20%;
+    height: 20%;
+    transition: transform 1s ease;
+  }
+  
+  .carrusel img:last-child {
+    margin-right: 0;
+  }
+
+  .carrusel img:nth-child(2){
+
+    margin-left: 0;
+  }
+  
+
+/* MAIN */
+
+main{
+
+    margin-top: 5rem;
+}
+
+h3{
+
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+
+main div a{
+
+    text-decoration: none;
+}
+
+main img{
+
+    width: 100%;
+    height: 60%;
+}
+
+.info-producto{
+
+    margin-top: 5rem;
+}
+
+.producto-nombre{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.precio-producto{
+
+    text-align: center;
+    font-size: 1.8rem
+}
+
+.producto-nombre,
+.precio-producto{
+
+    font-family: 'Quintessential', Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* LISTA */
+
+.hero{
+
+    background-image: url(../img/fondo5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 0;
+}
+
+.hero-black{
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text_l1{
+
+    font-family: 'Honk', sans-serif;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 3rem;
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+
+    width: 100%;
+    height: 100%;
+    margin-top: -0.9rem;
+}
+
+footer a{
+
+    font-size: 2.2rem;
+
+}
+
+footer p{
+
+    color: #fff;
+    font-size: 2.2rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footer{
+
+    padding: 1rem 0;
+}
+
+/* CONTACTO */
+
+.main-contacto{
+
+    width: 80%;
+    margin: 10rem auto;
+}
+
+.titulo-contacto{
+
+    text-align: center;
+    font-size: 5rem;
+}
+
+.form-container{
+
+    margin-top: 8rem;
+}
+
+.formulario{
+
+    padding: 3rem;
+}
+
+.text-form{
+
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Yrsa', Arial, Helvetica, sans-serif;
+}
+
+.text-form2{
+
+    color: #000;
+    font-size: 1.8rem;
+    font-family: 'Yrsa', Arial, Helvetica, sans-serif;
+}
+
+.formulario legend{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.personal{
+
+    margin-top: 3rem;
+}
+
+.contacto{
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mensaje{
+
+    width: 50%;
+}
+
+
+.checks{
+
+    margin-top: 2.2rem;
+}
+
+.boton{
+
+    margin-top: 2rem;
+}
+
+.boton2{
+
+    font-size: 2rem;
+    font-family: 'Yrsa', Arial, Helvetica, sans-serif;
+}
+
+/* NOSOTROS */
+
+.tit-sec-nos{
+
+    color: #f1f1f1;
+    font-size: 3.4rem;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tex-nos{
+
+    color: #f1f1f1;
+    font-size: 1.8rem;
+}
+
+.cont-main-nos{
+
+    padding: 5rem;
+}
+
+.cont-main-nos li{
+
+    margin-bottom: 2rem;
+}
+
+/* LAYOUT PRODUCTOS */
+
+.body-pr2{
+
+    background-color: #000;
+}
+
+.fondo-container-pr2{
+
+    background-image: url(../img/fondo-producto-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin-bottom: 0;
+    margin-top: -2.2rem;
+}
+
+.container-producto-2{
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container-imagen-venta{
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.imagen-venta{
+
+    width: 80%;
+    height: 100%;
+}
+
+.texto-venta{
+
+    font-size: 2rem;
+    color: #fff;
+}
+
+.container-opciones-venta{
+
+    margin-top: 7rem;
+}
+
+.select-formulario{
+
+    color: #fff;
+    background-color: transparent;
+    border-color: aqua;
+    border-width: 0.3rem;
+    width: 30%;
+    padding: 0.4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.select-formulario:focus{
+
+    color: #000;
+}
+
+.cantidad-form{
+
+    color: #fff;
+    background-color: transparent;
+    border-color: aqua;
+    border-width: 0.3rem;
+    width: 30%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.boton-form-venta{
+
+    display: block;
+    width: 50%;
+    margin: 3rem auto;
+    color: #fff;
+}
+
+/* PRODUCTOS */
+
+.video{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.imagen-pr{
+
+    width: 100%;
+}
+
+.color-pr{
+
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-pr{
+
+    margin-top: 9rem;
+}
+
+/* Opciones: SNEAKERS, HOODIES, TSHIRTS */
+
+.body-layout-pr2 {
+
+    display: flex;
+    min-height: 100vh;
+}
+
+.container-aside-pr2 {
+
+    width: 15%;
+    display: flex;
+}
+
+.aside-layout-pr2 {
+
+    padding: 2rem;
+    flex: 1;
+    margin-top: 7rem;
+}
+
+.titulo-aside {
+
+    font-size: 3rem;
+    color: #fff;
+}
+
+.lista-pr2{
+
+    list-style-type: none;
+}
+
+.link-pr2{
+
+    font-size: 2rem;
+}
+
+.main-layout-pr2 {
+    
+    flex: 1;
+    padding: 2rem;
+}
+
+.main-layout-pr2 img{
+
+    width: 100%;
+}
+
+.main-layout-pr2 p{
+
+    font-size: 3rem;
+    font-family: 'Quintessential', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.video-2{
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.fondo-pr2{
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
